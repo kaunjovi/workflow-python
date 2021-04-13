@@ -26,5 +26,5 @@ jobs:
         run: echo Hello, world!
         
       - name: execute py script # run the run.py to get the latest data
-        run: |
-          python -v
+        run: python --version 
+        
